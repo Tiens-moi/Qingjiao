@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:text="数码电子" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/study"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/study" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/study"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:text="教育学习" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/shirt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/shirt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shirt"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:text="生活用品" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/other" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/other"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:text="其他物品" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+

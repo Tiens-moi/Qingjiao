@@ -10,12 +10,12 @@
         android:title="首页" />
 
     <item
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_send"
         android:icon="@mipmap/jia"
         android:title="发布" />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_user"
         android:icon="@mipmap/zh"
         android:title="用户" />
 </menu>
